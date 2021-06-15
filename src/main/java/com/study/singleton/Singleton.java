@@ -8,4 +8,17 @@ package com.study.singleton;
  * @version: 1.0
  */
 public class Singleton {
+
+    /**
+     * 懒汉模式
+     * 静态模式，类变量
+     */
+    private static T t = new T();
+
+    private Singleton() {}
+
+
+    public static T getT() {
+        return t;
+    }
 }

@@ -1,4 +1,4 @@
-package com.study.proxy;
+package com.study.proxy.cglibdynproxy;
 
 /**
  * @author ：songdalin
@@ -7,9 +7,8 @@ package com.study.proxy;
  * @modified By：
  * @version: 1.0
  */
-public class Host implements Rent{
+public class Host {
 
-    @Override
     public void rent() {
         System.out.println("租房子");
     }

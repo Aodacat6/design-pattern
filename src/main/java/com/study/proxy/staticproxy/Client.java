@@ -1,4 +1,4 @@
-package com.study.proxy;
+package com.study.proxy.staticproxy;
 
 /**
  * @author ：songdalin

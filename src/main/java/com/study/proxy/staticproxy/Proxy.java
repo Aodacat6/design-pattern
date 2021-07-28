@@ -1,6 +1,4 @@
-package com.study.proxy;
-
-import java.net.HttpCookie;
+package com.study.proxy.staticproxy;
 
 /**
  * @author ：songdalin
